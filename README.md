@@ -25,7 +25,7 @@ You manually review and classify the selected 226 issues to assess their archite
 7. Semi-automatic classification aided by ChatGPT with Prompt Engineering:
 In this step, you use ChatGPT to assist in the classification process. You might provide prompts to ChatGPT to help automate or semi-automate some of the classification tasks.
 
-8. Degree of Agreement Calculation comparing 7 and 8:
+8. Degree of Agreement Calculation comparing 6 and 7:
 This step involves calculating the degree of agreement between the manual classification and the semi-automatic classification performed with the help of ChatGPT. You need to quantify how closely the two methods align.
 
 9. Degree Agreement using Cohen's Kappa:
