@@ -33,10 +33,16 @@ This step involves calculating the degree of agreement between the manual classi
 9. Degree Agreement using Cohen's Kappa:
 Cohen's Kappa is a statistical measure used to assess the agreement between two raters (in this case, the manual and ChatGPT-assisted classifications). It takes into account the possibility of agreement occurring by chance.
 
+More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_cassandra.ipynb
+
 ## Analysis of commits and issues from Apache ActiveMQ
 
 ActiveMQ analysis available in https://github.com/armandossrecife/my_validation3/blob/main/imagens/my_method_analysis_commits_issues_activemq.jpg
 
+More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_activemq.ipynb
+
 ## Analysis of commits and issues from Apache Kafka
 
 Kafka analysis available in TBD
+
+More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_kafka.ipynb
