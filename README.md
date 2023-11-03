@@ -37,7 +37,9 @@ More details and scripts available in https://github.com/armandossrecife/my_vali
 
 ## Analysis of commits and issues from Apache ActiveMQ
 
-ActiveMQ analysis available in https://github.com/armandossrecife/my_validation3/blob/main/imagens/my_method_analysis_commits_issues_activemq.jpg
+ActiveMQ analysis
+
+![My analysis of commits and issues from ActiveMQ](https://github.com/armandossrecife/my_validation3/blob/main/imagens/my_method_analysis_commits_issues_activemq.jpg)
 
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_activemq.ipynb
 
