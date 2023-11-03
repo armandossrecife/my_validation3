@@ -36,3 +36,7 @@ Cohen's Kappa is a statistical measure used to assess the agreement between two 
 ## Analysis of commits and issues from Apache ActiveMQ
 
 ActiveMQ analysis available in https://github.com/armandossrecife/my_validation3/blob/main/imagens/my_method_analysis_commits_issues_activemq.jpg
+
+## Analysis of commits and issues from Apache Kafka
+
+Kafka analysis available in TBD
