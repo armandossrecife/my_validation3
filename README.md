@@ -1,6 +1,8 @@
 # Analysis Method
 
-## Analysis of commits and issues from Apache Cassandra
+Analysis of commits and issues from Git Repositories
+
+## Apache Cassandra analysis
 
 Draft of Cassandra's commit and issue analysis method
 
@@ -35,7 +37,7 @@ Cohen's Kappa is a statistical measure used to assess the agreement between two 
 
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_cassandra.ipynb
 
-## Analysis of commits and issues from Apache ActiveMQ
+## Apache ActiveMQ analaysis
 
 ActiveMQ analysis
 
@@ -43,7 +45,7 @@ ActiveMQ analysis
 
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_activemq.ipynb
 
-## Analysis of commits and issues from Apache Kafka
+## Apache Kafka analysis
 
 Kafka analysis
 
