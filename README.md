@@ -56,3 +56,9 @@ Kafka analysis
 ![My analysis of commits and issues from Kafka](https://github.com/armandossrecife/my_validation3/blob/main/imagens/my_method_analysis_commits_issues_kafka.jpg)
 
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_kafka.ipynb
+
+# Comparing Results
+
+The comparison among Cassandra, Kafka and ActiveMQ is available in
+
+https://github.com/armandossrecife/my_validation3/blob/main/my_comparison.ipynb
