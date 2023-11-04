@@ -45,6 +45,8 @@ More details and scripts available in https://github.com/armandossrecife/my_vali
 
 ## Analysis of commits and issues from Apache Kafka
 
-Kafka analysis available in TBD
+Kafka analysis
+
+![My analysis of commits and issues from Kafka](https://github.com/armandossrecife/my_validation3/blob/main/imagens/my_method_analysis_commits_issues_kafka.jpg)
 
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_kafka.ipynb
