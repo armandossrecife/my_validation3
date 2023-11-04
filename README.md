@@ -1,4 +1,4 @@
-# Analysis Method
+# Analysing Issues with Architectural Impact
 
 Analysis of commits and issues from Git Repositories
 
