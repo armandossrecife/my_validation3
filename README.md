@@ -35,6 +35,10 @@ This step involves calculating the degree of agreement between the manual classi
 9. Degree Agreement using Cohen's Kappa:
 Cohen's Kappa is a statistical measure used to assess the agreement between two raters (in this case, the manual and ChatGPT-assisted classifications). It takes into account the possibility of agreement occurring by chance.
 
+The calculated Cohen's Kappa score was found to be 0.752, indicating a substantial level of agreement between manual inspection and ChatGPT inspection.
+
+In our evaluation of the model used for inspecting issues, we obtained the following key performance metrics: Precision: 0.667, Recall: 1.00, Accuracy: 0.92 and F1-Score: 0.8. 
+
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_cassandra.ipynb
 
 ## Apache ActiveMQ analaysis
