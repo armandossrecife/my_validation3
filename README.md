@@ -1,6 +1,6 @@
 # Analysing Issues with Architectural Impact
 
-Analysis of commits and issues from Git Repositories
+Analysis of commits and issues from Git Repositories using Critical Classes from [ATDCodeAnalyzer](https://github.com/mining-software-repositories/cassandra/blob/main/data/AnalysisCassandraRepositoryFlow.png).
 
 ## Apache Cassandra analysis
 
