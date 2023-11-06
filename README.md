@@ -59,11 +59,31 @@ More details and scripts available in https://github.com/armandossrecife/my_vali
 
 # Comparing Results
 
-The comparison among Cassandra, Kafka and ActiveMQ
+The comparison among Cassandra, Kafka* and ActiveMQ
 
 ![Boxplot Lines - LOC - changes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_lines_chagnes_in_commits_issues_with_ai.png)
 ![Boxplot Files chagnes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_files_chages_in_commits_issues_with_ai.png)
 ![Boxplot Issues Time Resolution](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_timeresolution_issues.png)
+
+**Conclusions**
+
+Issues that have an architectural impact (Yes) have the following **characteristics**:
+
+- they impact many files (check 3rd quartile files modified in commit)
+- they change many lines of code (check 3rd quartile files modified in commit)
+- they take longer to be resolved (check 3rd quartile of resolution time for issues with architectural impact)
+
+**Justification**
+
+Based on the comparison of the results of issues with architectural impact from Cassandra, ActiveMQ, and Kafka* repositories.
+
+Comparison of the results of the number of lines and number of files modified in issue commits with architectural impact (Yes).
+
+Comparison of the results of the average time to resolve issues with architectural impact (Yes).
+
+The inspected issues that appear in commits with critical files and have an architectural impact show that critical classes can impact the software architecture.
+
+* The inspection of Kafka is on progress...
 
 More details in 
 
