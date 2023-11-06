@@ -2,6 +2,8 @@
 
 Analysis of commits and issues from Git Repositories using Critical Classes from [ATDCodeAnalyzer](https://github.com/mining-software-repositories/cassandra/blob/main/data/AnalysisCassandraRepositoryFlow.png).
 
+We have been analysed three Git Repositories: Apache Cassandra, Apache ActiveMQ and Apache Kafka*. 
+
 ## Apache Cassandra analysis
 
 Draft of Cassandra's commit and issue analysis method
@@ -81,7 +83,7 @@ Comparison of the results of the number of lines and number of files modified in
 
 Comparison of the results of the average time to resolve issues with architectural impact (Yes).
 
-The inspected issues that appear in commits with critical files and have an architectural impact show that critical classes can impact the software architecture.
+The inspected issues that appear in commits with critical files and have an architectural impact show that critical classes can impact the software architecture related to changes in software's structure.
 
 * The inspection of Kafka is on progress...
 
