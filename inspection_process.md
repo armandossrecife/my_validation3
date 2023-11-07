@@ -6,13 +6,13 @@ As a software developer, we created a classifier of issues from the Apache Cassa
 
 To enable issue labeling, we followed a structured set of stages to enhance the quality of the labeling process.
 
-In Stage 1 (Introduction), we focused on gaining a deep understanding of the context of Software Architecture, Architectural impact, Technical Debt (TD), Architectural Technical Debt (ATD), Self-Admitted Technical Debt (SATD), commits, and issues, along with their interconnections.
+In **Stage 1** (Introduction), we focused on gaining a deep understanding of the context of Software Architecture, Architectural impact, Technical Debt (TD), Architectural Technical Debt (ATD), Self-Admitted Technical Debt (SATD), commits, and issues, along with their interconnections.
 
-In Stage 2 (Example Showcase), we presented several sample issues, provided instructions and examples for identifying 'Architectural Impact,' and introduced the 'Architectural Impact Classifier' and 'Issues with Architectural Technical Debt.' We also offered numerous examples of issues with ATD and issues without ATD.
+In **Stage 2** (Example Showcase), we presented several sample issues, provided instructions and examples for identifying 'Architectural Impact,' and introduced the 'Architectural Impact Classifier' and 'Issues with Architectural Technical Debt.' We also offered numerous examples of issues with ATD and issues without ATD.
 
-Stage 3 (Data Preparation) involved the selection of 163 issues for manual inspection to identify architectural issues and technical debt. These issues were chosen based on their association with commits containing critical classes identified by the ATDCodeAnalyzer and featuring SATD keywords in the commit messages and comments of the commit diffs.
+**Stage 3** (Data Preparation) involved the selection of 163 issues for manual inspection to identify architectural issues and technical debt. These issues were chosen based on their association with commits containing critical classes identified by the ATDCodeAnalyzer and featuring SATD keywords in the commit messages and comments of the commit diffs.
 
-Stage 4 (Final instruction to start the inspection by ChatGPT)
+**Stage 4** (Final instruction to start the inspection by ChatGPT)
 
 Following the identification of critical issues, each one underwent a thorough inspection. We analyzed the content within the 'summary,' 'description,' and 'comments' fields to detect the presence of SATD keywords. Issues containing these keywords in these fields then underwent a secondary inspection to evaluate their impact on the software's architecture.
 
