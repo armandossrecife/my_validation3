@@ -41,6 +41,8 @@ The calculated Cohen's Kappa score was found to be 0.752, indicating a substanti
 
 In our evaluation of the model used for inspecting issues, we obtained the following key performance metrics: Precision: 0.667, Recall: 1.00, Accuracy: 0.92 and F1-Score: 0.8. 
 
+This semi-automatic inspection process (aided by ChatGPT) can help to inspect other issues from other apache projects. 
+
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_cassandra.ipynb
 
 ## Apache ActiveMQ analaysis
