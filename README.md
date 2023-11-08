@@ -63,7 +63,7 @@ More details and scripts available in https://github.com/armandossrecife/my_vali
 
 # Comparing Results
 
-The comparison among Cassandra, Kafka and ActiveMQ
+The comparison among Cassandra, ActiveMQ and Kafka
 
 ![Boxplot Lines - LOC - changes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_lines_chagnes_in_commits_issues_with_ai.png)
 ![Boxplot Files chagnes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_files_chages_in_commits_issues_with_ai.png)
