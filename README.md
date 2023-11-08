@@ -4,6 +4,8 @@ Analysis of commits and issues from Git Repositories using Critical Classes from
 
 We have been analysed three Git Repositories: Apache Cassandra, Apache ActiveMQ and Apache Kafka. 
 
+We selected a representative dataset of Git repositories, encompassing significant source code repositories such as Apache Cassandra, Apache Kafka, Apache Hadoop and Apache ActiveMQ. These repositories exhibit complex software architectures, boasting many attributes, including more than 10000 commits, over 100 collaborators, over 1000 Java files, over 100000 lines of code, and at least ten-year lifetime. Consequently, these repositories are characterized by substantial commit histories, many contributors, intricate codebases, and widespread adoption within the software industry. Each repository's numerical and metric attributes will be comprehensively detailed. We applied the ATDCodeAnalyzer method to the repositories to identify critical files impacted by Architectural Technical Debt.
+
 ## Apache Cassandra analysis
 
 Draft of Cassandra's commit and issue analysis method
