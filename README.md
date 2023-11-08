@@ -89,8 +89,9 @@ Furthermore, the inspection of issues that appear in commits containing critical
 **Contributions**
 
 - We created an LLM model, based on prompt engineering, to help identify issues with architectural impact.
-- We provided a dataset (Apache Cassandra, Apache ActiveMQ and Apache Kafka) of commits, issues that have architectural impact
+- We provided a dataset (Apache Cassandra, Apache ActiveMQ and Apache Kafka) with detailed information of commits, issues that have architectural impact
 - We provided a dataset (Apache Cassandra, Apache ActiveMQ and Apache Kafka) of text with details about inspections of issues with architectural impact and issues without architectural impact
+- We provided a set of scripts that can be performed automatically to analyse the dataset and produce the results of analysis. 
 
 More details in 
 
