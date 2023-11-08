@@ -74,22 +74,23 @@ The comparison among Cassandra, ActiveMQ and Kafka
 ![Boxplot Issues Time Resolution](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_timeresolution_issues.png)
 
 **Conclusions**
-
-Issues that have an architectural impact (Yes) have the following **characteristics**:
-
-- they impact many files (check 3rd quartile files modified in commit)
-- they change many lines of code (check 3rd quartile files modified in commit)
-- they take longer to be resolved (check 3rd quartile of resolution time for issues with architectural impact)
+Issues with architectural impact (labeled as "Yes") exhibit the following **characteristics**:
+- They affect a substantial number of files (as indicated by the 2rd end 3rd quartile of files modified in the commit).
+- They involve significant code changes (as demonstrated by the 2rd end 3rd quartile of lines modified in the commit).
+- They require more time for resolution (as evidenced by the 2rd end 3rd quartile of the time taken to resolve issues with architectural impact).
 
 **Justification**
+These conclusions are drawn from a comparative analysis of results from the Cassandra, ActiveMQ, and Kafka repositories, specifically:
+- A comparison of the results related to the number of lines and files modified in issue commits with architectural impact (labeled as "Yes").
+- A comparison of the results concerning the average time required to resolve issues with architectural impact (also labeled as "Yes").
 
-Based on the comparison of the results of issues with architectural impact from Cassandra, ActiveMQ, and Kafka repositories.
+Furthermore, the inspection of issues that appear in commits containing critical files and have an architectural impact underscores the influence of critical classes on software architecture.
 
-Comparison of the results of the number of lines and number of files modified in issue commits with architectural impact (Yes).
+**Contributions**
 
-Comparison of the results of the average time to resolve issues with architectural impact (Yes).
-
-The inspected issues that appear in commits with critical files and have an architectural impact show that critical classes can impact the software architecture related to changes in software's structure.
+- We created an LLM model, based on prompt engineering, to help identify issues with architectural impact.
+- We provided a dataset (Apache Cassandra, Apache ActiveMQ and Apache Kafka) of commits, issues that have architectural impact
+- We provided a dataset (Apache Cassandra, Apache ActiveMQ and Apache Kafka) of text with details about inspections of issues with architectural impact and issues without architectural impact
 
 More details in 
 
