@@ -23,6 +23,8 @@ The test statistic is a measure of the evidence against the null hypothesis.
 
 The *p-value* is the probability of obtaining a test statistic as extreme or more extreme than the one you observed, assuming that the null hypothesis is true.
 
+Consider alpha=0.05
+
 ## 5. Make a decision. 
 
 If the *p-value* is less than your chosen significance level, then you reject the null hypothesis and conclude that the evidence supports the alternative hypothesis.
@@ -44,15 +46,22 @@ To test the hypothesis that issues with architectural impact involve significant
 | H1A 		| Accepted  | Accepted | Accepted  |
 
 
-# T2: HA - issues with architectural impact affect a substantial number of files
+# T2: HB - issues with architectural impact affect a substantial number of files
 
 To test the hypothesis that issues with architectural impact affect a substantial number of files:
 
-**Null hypothesis (H0A)**: The number of files affected by issues with architectural impact is not significantly different from the number of files affected by issues with less architectural impact.
+**Null hypothesis (H0B)**: The number of files affected by issues with architectural impact is not significantly different from the number of files affected by issues with less architectural impact.
 
-**Alternative hypothesis ((H1A)**: The number of files affected by issues with architectural impact is significantly greater than the number of files affected by issues with less architectural impact.
+**Alternative hypothesis (H1B)**: The number of files affected by issues with architectural impact is significantly greater than the number of files affected by issues with less architectural impact.
 
 **Statistical test**: Mann-Whitney U test
+
+| T2:HB   	| Cassandra | ActiveMQ | Kafka	   |
+| --------- | --------- | -------- | --------- |
+| p-value   | 0.00071   | 0.00508  | 0.00164   |
+| H0B 	    | Rejected  | Rejected | Rejected  |
+| H1B 	    | Accepted  | Accepted | Accepted  |
+
 
 # T3: HC - issues with architectural impact require more time for resolution
 
@@ -63,3 +72,9 @@ To test the hypothesis that issues with architectural impact require more time f
 **Alternative hypothesis (HC1)**: The time to resolution for issues with architectural impact is significantly greater than the time to resolution for issues with less architectural impact.
 
 **Statistical test**: Mann-Whitney U test
+
+| T3:HC   	| Cassandra | ActiveMQ | Kafka	   |
+| --------- | --------- | -------- | --------- |
+| p-value 	| 0.00022   | 0.19535  | 0.02584   |
+| H0A 		| Rejected  | Accepted | Rejected  |
+| H1A 		| Accepted  | Rejected | Accepted  |
