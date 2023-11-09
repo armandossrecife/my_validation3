@@ -15,7 +15,7 @@ To test the hypothesis that issues with architectural impact issues with archite
 
 ## 3. Collect data. 
 
-We will need to collect data on the **number of files** affected, the **number of lines of code changed**, and the **time to resolution** for both issues with architectural impact and issues with less architectural impact.
+We will need to collect data on the **number of files** affected, the **number of lines of code changed**, and the **time to resolution** for both issues with architectural impact and issues without architectural impact.
 
 ## 4. Calculate the test statistic and p-value. 
 
