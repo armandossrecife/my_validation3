@@ -27,17 +27,7 @@ The *p-value* is the probability of obtaining a test statistic as extreme or mor
 
 If the *p-value* is less than your chosen significance level, then you reject the null hypothesis and conclude that the evidence supports the alternative hypothesis.
 
-# T1: HA - issues with architectural impact affect a substantial number of files
-
-To test the hypothesis that issues with architectural impact affect a substantial number of files:
-
-**Null hypothesis (H0A)**: The number of files affected by issues with architectural impact is not significantly different from the number of files affected by issues with less architectural impact.
-
-**Alternative hypothesis ((H1A)**: The number of files affected by issues with architectural impact is significantly greater than the number of files affected by issues with less architectural impact.
-
-**Statistical test**: Chi-squared test
-
-# T2: HB - issues with architectural impact involve significant code changes
+# T1: HA - issues with architectural impact involve significant code changes
 
 To test the hypothesis that issues with architectural impact involve significant code changes:
 
@@ -45,7 +35,17 @@ To test the hypothesis that issues with architectural impact involve significant
 
 **Alternative hypothesis (H1B)**: The number of lines of code changed by issues with architectural impact is significantly greater than the number of lines of code changed by issues with less architectural impact.
 
-**Statistical test**: Chi-squared test
+**Statistical test**: Mann-Whitney U test
+
+# T2: HA - issues with architectural impact affect a substantial number of files
+
+To test the hypothesis that issues with architectural impact affect a substantial number of files:
+
+**Null hypothesis (H0A)**: The number of files affected by issues with architectural impact is not significantly different from the number of files affected by issues with less architectural impact.
+
+**Alternative hypothesis ((H1A)**: The number of files affected by issues with architectural impact is significantly greater than the number of files affected by issues with less architectural impact.
+
+**Statistical test**: Mann-Whitney U test
 
 # T3: HC - issues with architectural impact require more time for resolution
 
