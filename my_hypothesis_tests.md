@@ -33,9 +33,9 @@ If the *p-value* is less than your chosen significance level, then you reject th
 
 To test the hypothesis that issues with architectural impact involve significant code changes:
 
-**Null hypothesis (H0A)**: The number of lines of code changed by issues with architectural impact is not significantly different from the number of lines of code changed by issues with less architectural impact.
+**Null hypothesis (H0A)**: The number of lines of code changed by issues with architectural impact is not significantly different from the number of lines of code changed by issues without architectural impact.
 
-**Alternative hypothesis (H1A)**: The number of lines of code changed by issues with architectural impact is significantly greater than the number of lines of code changed by issues with less architectural impact.
+**Alternative hypothesis (H1A)**: The number of lines of code changed by issues with architectural impact is significantly greater than the number of lines of code changed by issues without architectural impact.
 
 **Statistical test**: Mann-Whitney U test
 
@@ -50,9 +50,9 @@ To test the hypothesis that issues with architectural impact involve significant
 
 To test the hypothesis that issues with architectural impact affect a substantial number of files:
 
-**Null hypothesis (H0B)**: The number of files affected by issues with architectural impact is not significantly different from the number of files affected by issues with less architectural impact.
+**Null hypothesis (H0B)**: The number of files affected by issues with architectural impact is not significantly different from the number of files affected by issues without architectural impact.
 
-**Alternative hypothesis (H1B)**: The number of files affected by issues with architectural impact is significantly greater than the number of files affected by issues with less architectural impact.
+**Alternative hypothesis (H1B)**: The number of files affected by issues with architectural impact is significantly greater than the number of files affected by issues without architectural impact.
 
 **Statistical test**: Mann-Whitney U test
 
@@ -67,9 +67,9 @@ To test the hypothesis that issues with architectural impact affect a substantia
 
 To test the hypothesis that issues with architectural impact require more time for resolution:
 
-**Null hypothesis (HC0)**: The time to resolution for issues with architectural impact is not significantly different from the time to resolution for issues with less architectural impact.
+**Null hypothesis (HC0)**: The time to resolution for issues with architectural impact is not significantly different from the time to resolution for issues without architectural impact.
 
-**Alternative hypothesis (HC1)**: The time to resolution for issues with architectural impact is significantly greater than the time to resolution for issues with less architectural impact.
+**Alternative hypothesis (HC1)**: The time to resolution for issues with architectural impact is significantly greater than the time to resolution for issues without architectural impact.
 
 **Statistical test**: Mann-Whitney U test
 
