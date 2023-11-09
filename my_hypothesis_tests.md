@@ -31,11 +31,18 @@ If the *p-value* is less than your chosen significance level, then you reject th
 
 To test the hypothesis that issues with architectural impact involve significant code changes:
 
-**Null hypothesis (H0B)**: The number of lines of code changed by issues with architectural impact is not significantly different from the number of lines of code changed by issues with less architectural impact.
+**Null hypothesis (H0A)**: The number of lines of code changed by issues with architectural impact is not significantly different from the number of lines of code changed by issues with less architectural impact.
 
-**Alternative hypothesis (H1B)**: The number of lines of code changed by issues with architectural impact is significantly greater than the number of lines of code changed by issues with less architectural impact.
+**Alternative hypothesis (H1A)**: The number of lines of code changed by issues with architectural impact is significantly greater than the number of lines of code changed by issues with less architectural impact.
 
 **Statistical test**: Mann-Whitney U test
+
+| T1:HA   	| Cassandra | ActiveMQ | Kafka	   |
+| --------- | --------- | -------- | --------- |
+| p-value 	| 0.00108   | 0.01891  | 0.00022   |
+| H0A 		| Rejected  | Rejected | Rejected  |
+| H1A 		| Accepted  | Accepted | Accepted  |
+
 
 # T2: HA - issues with architectural impact affect a substantial number of files
 
