@@ -81,9 +81,9 @@ The comparison of issues in commits with critical classes among Cassandra, Activ
 
 **Conclusions**
 Issues with architectural impact (labeled as "Yes") exhibit the following **characteristics**:
-- They affect a substantial number of files (as indicated by the 2rd end 3rd quartile of files modified in the commit).
-- They involve significant code changes (as demonstrated by the 2rd end 3rd quartile of lines modified in the commit).
-- They require more time for resolution (as evidenced by the 2rd end 3rd quartile of the time taken to resolve issues with architectural impact).
+- They affect a substantial number of files (T1:H0A rejected).
+- They involve significant code changes (T2:H0B rejected).
+- They require more time for resolution (T3:H0C rejected).
 
 **Justification**
 These conclusions are drawn from a comparative analysis of results from the Cassandra, ActiveMQ, and Kafka repositories, specifically:
