@@ -77,6 +77,8 @@ The comparison of issues in commits with critical classes among Cassandra, Activ
 ![Boxplot Files chagnes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_files_chages_in_commits_issues_with_ai.png)
 ![Boxplot Issues Time Resolution](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_timeresolution_issues.png)
 
+[Hypothesis Tests](https://github.com/armandossrecife/my_validation3/blob/main/my_hypothesis_tests.md)
+
 **Conclusions**
 Issues with architectural impact (labeled as "Yes") exhibit the following **characteristics**:
 - They affect a substantial number of files (as indicated by the 2rd end 3rd quartile of files modified in the commit).
