@@ -53,6 +53,8 @@ This semi-automatic inspection process (aided by ChatGPT) can help to inspect ot
 
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_cassandra.ipynb
 
+Presentation about [Labelling Issues related to Architectural Impact](https://docs.google.com/presentation/d/1oH9EAXKtNAAQJ14VVrK2AYqcYQxSGvKLEw1DLXAMhQQ/edit?usp=sharing)
+
 ## Apache ActiveMQ analaysis
 
 ActiveMQ analysis
