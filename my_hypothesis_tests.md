@@ -78,3 +78,7 @@ To test the hypothesis that issues with architectural impact require more time f
 | p-value 	| 0.00022   | 0.19535  | 0.02584   |
 | H0A 		| Rejected  | Accepted | Rejected  |
 | H1A 		| Accepted  | Rejected | Accepted  |
+
+More details in 
+
+https://github.com/armandossrecife/my_validation3/blob/main/my_comparison.ipynb
