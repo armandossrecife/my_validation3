@@ -87,8 +87,8 @@ Issues with architectural impact (labeled as "Yes") exhibit the following **char
 
 **Justification**
 These conclusions are drawn from a comparative analysis of results from the Cassandra, ActiveMQ, and Kafka repositories, specifically:
-- A comparison of the results related to the number of lines and files modified in issue commits with architectural impact (labeled as "Yes").
-- A comparison of the results concerning the average time required to resolve issues with architectural impact (also labeled as "Yes").
+- A comparison of the results related to the number of lines and files modified in issue commits with architectural impact (labeled as "Yes") and without architectural impact (labeled as "No").
+- A comparison of the results concerning the average time required to resolve issues with architectural impact (also labeled as "Yes") and without architectural impact (labeled as "No").
 
 Furthermore, the inspection of issues that appear in commits containing critical files and have an architectural impact underscores the influence of critical classes on software architecture.
 
