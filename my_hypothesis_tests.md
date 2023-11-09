@@ -42,8 +42,8 @@ To test the hypothesis that issues with architectural impact involve significant
 | T1:HA   	| Cassandra | ActiveMQ | Kafka	   |
 | --------- | --------- | -------- | --------- |
 | p-value 	| 0.00108   | 0.01891  | 0.00022   |
-| H0C 		| Rejected  | Rejected | Rejected  |
-| H1C 		| Accepted  | Accepted | Accepted  |
+| H0A 		| Rejected  | Rejected | Rejected  |
+| H1A 		| Accepted  | Accepted | Accepted  |
 
 
 # T2: HB - issues with architectural impact affect a substantial number of files
@@ -76,8 +76,8 @@ To test the hypothesis that issues with architectural impact require more time f
 | T3:HC   	| Cassandra | ActiveMQ | Kafka	   |
 | --------- | --------- | -------- | --------- |
 | p-value 	| 0.00022   | 0.19535  | 0.02584   |
-| H0A 		| Rejected  | Accepted | Rejected  |
-| H1A 		| Accepted  | Rejected | Accepted  |
+| H0C 		| Rejected  | Accepted | Rejected  |
+| H1C 		| Accepted  | Rejected | Accepted  |
 
 More details in 
 
