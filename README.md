@@ -102,3 +102,5 @@ Furthermore, the inspection of issues that appear in commits containing critical
 More details in 
 
 https://github.com/armandossrecife/my_validation3/blob/main/my_comparison.ipynb
+
+About ATDCodeAnalyzer: https://github.com/Technical-Debt-Large-Scale/atdcodeanalyzer
