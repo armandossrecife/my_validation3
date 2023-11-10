@@ -10,8 +10,8 @@ The alternative hypothesis is the statement that the three characteristics are a
 ## 2. The statistical test (Chi-squared test, Mann-Whitney U test). 
 
 The choice of statistical test will depend on the specific characteristic you are testing. 
-For example, to test the hypothesis that issues with architectural impact affect a substantial number of files, you can use a chi-squared test. 
-To test the hypothesis that issues with architectural impact issues with architectural impact require more time for resolution you can use a Mann-Whitney U test.
+For example: to test the hypothesis that issues with architectural impact issues with architectural impact require more time for resolution you can use a Mann-Whitney U test.
+The chi-squared test must be used to normalized data.
 
 ## 3. Collect data. 
 
