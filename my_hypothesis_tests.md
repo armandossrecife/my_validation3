@@ -29,55 +29,71 @@ Consider alpha=0.05
 
 If the *p-value* is less than your chosen significance level, then you reject the null hypothesis and conclude that the evidence supports the alternative hypothesis.
 
-# T1: HA - issues with architectural impact involve significant code changes
+# T1: HA - issues with architectural impact affect a substantial number of LOC changes in commits.
 
-To test the hypothesis that issues with architectural impact involve significant code changes:
+To test the hypothesis that issues with architectural impact affect a substantial number of LOC changes in commits:
 
-**Null hypothesis (H0A)**: The number of lines of code changed by issues with architectural impact is not significantly different from the number of lines of code changed by issues without architectural impact.
+**Null hypothesis (H0A)**: The number of LOC changed in commits affected by issues with architectural impact is not significantly different from the number of files affected by issues without architectural impact.
 
-**Alternative hypothesis (H1A)**: The number of lines of code changed by issues with architectural impact is significantly greater than the number of lines of code changed by issues without architectural impact.
+**Alternative hypothesis (H1A)**: The number of LOC changed in commits affected by issues with architectural impact is significantly greater than the number of LOC changes affected by issues without architectural impact.
+
+**Alternative hypothesis (H2A)**: The number of LOC changed in commits affected by issues with architectural impact is significantly lower than the number of LOC changes affected by issues without architectural impact.
 
 **Statistical test**: Mann-Whitney U test
 
 | T1:HA   	| Cassandra | ActiveMQ | Kafka	   |
 | --------- | --------- | -------- | --------- |
-| p-value 	| 0.00108   | 0.01891  | 0.00022   |
-| H0A 		| Rejected  | Rejected | Rejected  |
-| H1A 		| Accepted  | Accepted | Accepted  |
-
+| h0stats   | 7466.5    | 2568.0   | 5138.0    |
+| h0p-value | 0.00108   | 0.01891  | 0.000196  |
+| p-value   | 0.00053   | 0.00945  | 9.82e-05  |
+| effec-size| 0.54716   | 0.54376  | 0.58016   |
+| H0A 		  | Rejected  | Rejected | Rejected  |
+| H1A 		  | Accepted  | Accepted | Accepted  |
+| H2A 		  | Rejected  | Rejected | Rejected  |
 
 # T2: HB - issues with architectural impact affect a substantial number of files
 
 To test the hypothesis that issues with architectural impact affect a substantial number of files:
 
-**Null hypothesis (H0B)**: The number of files affected by issues with architectural impact is not significantly different from the number of files affected by issues without architectural impact.
+**Null hypothesis (H0B)**: The number of files affected by issues with architectural impact is not significantly different from the number of files affected by issues with less architectural impact.
 
-**Alternative hypothesis (H1B)**: The number of files affected by issues with architectural impact is significantly greater than the number of files affected by issues without architectural impact.
+**Alternative hypothesis (H1B)**: The number of files affected by issues with architectural impact is significantly greater than the number of files affected by issues with less architectural impact.
+
+**Alternative hypothesis (H2B)**: The number of files affected by issues with architectural impact is significantly lower than the number of files affected by issues with less architectural impact.
 
 **Statistical test**: Mann-Whitney U test
 
 | T2:HB   	| Cassandra | ActiveMQ | Kafka	   |
 | --------- | --------- | -------- | --------- |
+| h0stats   | 8299.5    | 2765.0   | 5367.5    |
+| h0p-value | 0.00071   | 0.00507  | 0.00164   |
+| p-value   | 0.00035   | 0.00253  | 0.00082   |
+| effec-size| 0.56297   | 0.60501  | 0.5655    |
 | p-value   | 0.00071   | 0.00508  | 0.00164   |
 | H0B 	    | Rejected  | Rejected | Rejected  |
 | H1B 	    | Accepted  | Accepted | Accepted  |
-
+| H2B 		  | Rejected  | Rejected | Rejected  |
 
 # T3: HC - issues with architectural impact require more time for resolution
-
 To test the hypothesis that issues with architectural impact require more time for resolution:
 
-**Null hypothesis (HC0)**: The time to resolution for issues with architectural impact is not significantly different from the time to resolution for issues without architectural impact.
+**Null hypothesis (H0C)**: The time to resolution for issues with architectural impact is not significantly different from the time to resolution for issues with less architectural impact.
 
-**Alternative hypothesis (HC1)**: The time to resolution for issues with architectural impact is significantly greater than the time to resolution for issues without architectural impact.
+**Alternative hypothesis (H1C)**: The time to resolution for issues with architectural impact is significantly greater than the time to resolution for issues with less architectural impact.
+
+**Alternative hypothesis (H2C)**: The time to resolution for issues with architectural impact is significantly lower than the time to resolution for issues with less architectural impact.
 
 **Statistical test**: Mann-Whitney U test
 
 | T3:HC   	| Cassandra | ActiveMQ | Kafka	   |
 | --------- | --------- | -------- | --------- |
-| p-value 	| 0.00022   | 0.19535  | 0.02584   |
-| H0C 		| Rejected  | Accepted | Rejected  |
-| H1C 		| Accepted  | Rejected | Accepted  |
+| h0stats   | 6252.5    | 1655.0   | 3583.5    |
+| h0p-value | 0.000218  | 0.19534  | 0.02584   |
+| p-value   | 0.000109  | 0.19534  | 0.01292   |
+| effec-size| 0.64695   | 0.26989  | 0.47917   |
+| H0C 		  | Rejected  | Accepted | Rejected  |
+| H1C 		  | Accepted  | Rejected | Accepted  |
+| H2C 		  | Rejected  | Rejected | Rejected  |
 
 More details in 
 
