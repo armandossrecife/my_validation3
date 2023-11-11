@@ -2,7 +2,7 @@
 
 Analysis of commits and issues from Git Repositories using Critical Classes from [ATDCodeAnalyzer](https://github.com/mining-software-repositories/cassandra/blob/main/data/AnalysisCassandraRepositoryFlow.png).
 
-We have been analysed three Git Repositories: Apache Cassandra, Apache ActiveMQ and Apache Kafka. We evaluated 537 issues from Cassandra (226), ActiveMQ (132), and Kafka (179) using an inspection aided by the LLM model to classify them as either Yes or No based on their architectural impact.
+We have been analysed three Git Repositories: Apache Cassandra, Apache ActiveMQ, Apache Kafka and Apache Hadoop. We evaluated 678 issues from Cassandra (226), ActiveMQ (132), Kafka (179) and Hadoop (141) using an inspection aided by the LLM model to classify them as either Yes or No based on their architectural impact.
 
 We selected a representative dataset of Git repositories, encompassing significant source code repositories such as Apache Cassandra, Apache Kafka, Apache Hadoop and Apache ActiveMQ. These repositories exhibit complex software architectures, boasting many attributes, including more than 10000 commits, over 100 collaborators, over 1000 Java files, over 100000 lines of code, and at least ten-year lifetime. Consequently, these repositories are characterized by substantial commit histories, many contributors, intricate codebases, and widespread adoption within the software industry. Each repository's numerical and metric attributes will be comprehensively detailed. We applied the ATDCodeAnalyzer method to the repositories to identify critical files impacted by Architectural Technical Debt.
 
@@ -69,9 +69,17 @@ Kafka analysis
 
 More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_kafka.ipynb
 
+## Apache Hadoop analysis
+
+Hadoop analysis
+
+![My analysis of commits and issues from Hadoop](https://github.com/armandossrecife/my_validation3/blob/main/imagens/my_method_analysis_commits_issues_hadoop.jpg)
+
+More details and scripts available in https://github.com/armandossrecife/my_validation3/blob/main/my_analysis_hadoop.ipynb
+
 # Comparing Results
 
-The comparison of issues in commits with critical classes among Cassandra, ActiveMQ and Kafka
+The comparison of issues in commits with critical classes among Cassandra, ActiveMQ, Kafka and Hadoop
 
 ![Boxplot Lines - LOC - changes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_lines_chagnes_in_commits_issues_with_ai.png)
 ![Boxplot Files chagnes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_files_chages_in_commits_issues_with_ai.png)
