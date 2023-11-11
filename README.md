@@ -2,7 +2,7 @@
 
 Analysis of commits and issues from Git Repositories using Critical Classes from [ATDCodeAnalyzer](https://github.com/mining-software-repositories/cassandra/blob/main/data/AnalysisCassandraRepositoryFlow.png).
 
-We have been analysed three Git Repositories: Apache Cassandra, Apache ActiveMQ, Apache Kafka and Apache Hadoop. We evaluated 678 issues from Cassandra (226), ActiveMQ (132), Kafka (179) and Hadoop (141) using an inspection aided by the LLM model to classify them as either Yes or No based on their architectural impact.
+We have been analysed four Git Repositories: Apache Cassandra, Apache ActiveMQ, Apache Kafka and Apache Hadoop. We evaluated 678 issues from Cassandra (226), ActiveMQ (132), Kafka (179) and Hadoop (141) using an inspection aided by the LLM model to classify them as either Yes or No based on their architectural impact.
 
 We selected a representative dataset of Git repositories, encompassing significant source code repositories such as Apache Cassandra, Apache Kafka, Apache Hadoop and Apache ActiveMQ. These repositories exhibit complex software architectures, boasting many attributes, including more than 10000 commits, over 100 collaborators, over 1000 Java files, over 100000 lines of code, and at least ten-year lifetime. Consequently, these repositories are characterized by substantial commit histories, many contributors, intricate codebases, and widespread adoption within the software industry. Each repository's numerical and metric attributes will be comprehensively detailed. We applied the ATDCodeAnalyzer method to the repositories to identify critical files impacted by Architectural Technical Debt.
 
@@ -103,8 +103,8 @@ Furthermore, the inspection of issues that appear in commits containing critical
 **Contributions**
 
 - We created an LLM model, based on prompt engineering, to help identify issues with architectural impact.
-- We provided a dataset (Apache Cassandra, Apache ActiveMQ and Apache Kafka) with detailed information of commits, and issues that have architectural impact
-- We provided a dataset (Apache Cassandra, Apache ActiveMQ and Apache Kafka) of text with details about inspections of issues with architectural impact and issues without architectural impact
+- We provided a dataset (Apache Cassandra, Apache ActiveMQ, Apache Kafka and Apache Hadoop) with detailed information of commits, and issues that have architectural impact
+- We provided a dataset (Apache Cassandra, Apache ActiveMQ, Apache Kafka and Apache Hadoop) of text with details about inspections of issues with architectural impact and issues without architectural impact
 - We provided a set of scripts that can be performed automatically to analyse the dataset and produce the results of analysis. 
 
 More details in 
