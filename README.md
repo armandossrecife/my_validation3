@@ -1,6 +1,6 @@
 # Analysing Issues with Architectural Impact
 
-Analysis of commits and issues from Git Repositories using Critical Classes from [ATDCodeAnalyzer](https://github.com/mining-software-repositories/cassandra/blob/main/data/AnalysisCassandraRepositoryFlow.png).
+Analysis of [commits and issues](https://github.com/armandossrecife/my_validation3/blob/main/imagens/analysis_commits_issues.jpg) from Git Repositories using Critical Classes from [ATDCodeAnalyzer](https://github.com/mining-software-repositories/cassandra/blob/main/data/AnalysisCassandraRepositoryFlow.png).
 
 We have been analysed four Git Repositories: Apache Cassandra, Apache ActiveMQ, Apache Kafka and Apache Hadoop. We evaluated 678 issues from Cassandra (226), ActiveMQ (132), Kafka (179) and Hadoop (141) using an inspection aided by the LLM model to classify them as either Yes or No based on their architectural impact.
 
