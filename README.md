@@ -8,6 +8,14 @@ We selected a representative dataset of Git repositories, encompassing significa
 
 We examine if these issues indicate architectural problems within the software. These problems encompass: software's structure, organizational issues, quality software, issues that impact evolvability and maintainability. For example: changes to core components,performance improvements, scalability snhancements, concurrency and parallelism, resource management, data model changes, distributed system aspects, consistency and availability, extensibility and plugin frameworks, security and compliance, system modularity, data integrity and durability, etc.
 
+Related to "architectural impact issues" found by issues in commits with critical classes in the selected software repositories: 
+
+RQ1) Do architectural impact issues affect a substantial number of LOC changes in commits?
+
+RQ2) Do architectural impact issues affect a substantial amount of modified files in commits?
+
+RQ3) Do architectural impact issues require more time for resolution?
+
 ## Apache Cassandra analysis
 
 Draft of Cassandra's commit and issue analysis method
