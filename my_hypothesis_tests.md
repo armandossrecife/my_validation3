@@ -53,6 +53,9 @@ To test the hypothesis that issues with architectural impact affect a substantia
 
 ![Boxplot Lines - LOC - changes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_lines_chagnes_in_commits_issues_with_ai.png)
 
+![lines_changes_in_commits_issues](https://github.com/armandossrecife/my_validation3/blob/main/imagens/lines_changes_in_commits_issues.png)
+
+
 # T2: HB - issues with architectural impact affect a substantial number of files
 
 To test the hypothesis that issues with architectural impact affect a substantial number of files:
@@ -77,6 +80,9 @@ To test the hypothesis that issues with architectural impact affect a substantia
 
 ![Boxplot Files chagnes in Commits in issues with AI](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_files_chages_in_commits_issues_with_ai.png)
 
+![modified_files_in_commits_issues](https://github.com/armandossrecife/my_validation3/blob/main/imagens/modified_files_in_commits_issues.png)
+
+
 # T3: HC - issues with architectural impact require more time for resolution
 To test the hypothesis that issues with architectural impact require more time for resolution:
 
@@ -99,6 +105,8 @@ To test the hypothesis that issues with architectural impact require more time f
 | H2C 		  | Rejected  | Rejected | Rejected  | Rejected  |
 
 ![Boxplot Issues Time Resolution](https://github.com/armandossrecife/my_validation3/blob/main/imagens/boxplot_timeresolution_issues.png)
+
+![time_resolution_in_commits_issues](https://github.com/armandossrecife/my_validation3/blob/main/imagens/time_resolution_in_commits_issues.png)
 
 More details in 
 
